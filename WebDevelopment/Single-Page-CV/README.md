@@ -6,4 +6,4 @@ https://html-preview.github.io/?url=https://github.com/Maks162s/roadmap.sh-solut
 
 # Source
 
-[Roadmap.sh Single-Page CV Project](https://roadmap.sh/projects/single-page-cv)
+https://roadmap.sh/projects/single-page-cv
