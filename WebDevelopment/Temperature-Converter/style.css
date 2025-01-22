@@ -1,0 +1,79 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif
+}
+
+.container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#Temperature {
+    padding: 2px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: large;
+    text-align: center;
+    appearance: textfield;
+}
+
+#Temperature:focus {
+    outline: rgb(21, 117, 196) 2px solid;
+}
+
+select {
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 2px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: large;
+    text-align: center;
+}
+
+button {
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 2px;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #202020;
+    color: #fff;
+    border: 1px solid #000000;
+    font-size: large;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background-color: #ccc;
+    color: #000;
+    border: 1px solid #ccc;
+    transition: all 0.2s;
+}
+
+button:hover:enabled {
+    background-color: #404040;
+    border: 1px solid #404040;
+    transition: all 0.2s;
+}
+
+button:active:enabled {
+    background-color: #000000;
+    border: 1px solid #000000;
+    transition: all 0.2s;
+}
