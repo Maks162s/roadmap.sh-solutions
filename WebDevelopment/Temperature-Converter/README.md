@@ -10,4 +10,4 @@ https://html-preview.github.io/?url=https://github.com/Maks162s/roadmap.sh-solut
 
 # Showcase
 
-<img src="showcase1.png" width="300" />
+<img src="showcase1.png" width="600" />
